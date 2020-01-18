@@ -24,6 +24,7 @@ OOP 2 수업에서 Graph를 구현하고 BFS, DFS, Dijkstra 알고리즘을 실�
             - Map<K, ArrayList<K>>으로 K node부터 다른 노드까지 걸리는 path 관리
             - TreeMap<K, V> 로 origin부터 각 node까지 걸리는 cost 관리
     - CallBack 인터페이스 사용
+        - String 을 result로 갖는 콜백 함수를 만들고, DFS, BFS, Dijkstra에서 traversing한 결과를 콜백 함수를 불러서 콜백 함수가 전달받은 node를 프로세싱하며 result에 추가함.
 - Junit으로 테스트 한 모습
 
         @Test
